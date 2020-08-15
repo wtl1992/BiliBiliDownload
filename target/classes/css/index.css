@@ -1,0 +1,142 @@
+*{
+     -fx-background-insets: 0;
+     -fx-border-insets: 0;
+     -fx-background-radius: 0;
+ }
+
+#topFlowPane{
+    -fx-background-color: #CCCCCC;
+    -fx-pref-height: 30px;
+}
+
+Label.first,Label.second{
+    -fx-font-size: 14px;
+    -fx-padding: 0 10px;
+    -fx-pref-height: 30px;
+}
+
+Label.focus{
+    -fx-background-color: #FFFFFF;
+}
+
+AnchorPane#contentAnchorPane{
+    -fx-pref-height: 100px;
+}
+
+HBox#topHBox{
+    -fx-pref-height: 36px;
+}
+
+.text-field{
+    -fx-background-color: #FFFFFF;
+}
+
+TextField.textField{
+    -fx-pref-width: 380px;
+    -fx-border-width: 1px;
+    -fx-border-color: #000000;
+}
+
+HBox#topHBoxSave{
+    -fx-pref-height: 36px;
+}
+
+Button{
+    -fx-pref-width: 50px;
+    -fx-alignment: center;
+}
+
+ScrollPane#contentScrollPane{
+    -fx-hbar-policy : never;
+}
+
+.scroll-bar:vertical .track{
+    -fx-background-color:transparent;
+    -fx-border-color:transparent;
+    -fx-background-radius: 0em;
+    -fx-border-radius:2em;
+}
+
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button{
+    -fx-background-color:transparent;
+    -fx-background-radius: 0em;
+    -fx-padding:0 0 10 0;
+}
+
+.scroll-bar:vertical .increment-arrow,
+.scroll-bar:vertical .decrement-arrow{
+    -fx-shape: " ";
+    -fx-padding:0;
+}
+
+.scroll-bar:vertical .thumb{
+    -fx-background-color:derive(black,90%);
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+}
+
+.scroll-bar:vertical:hover .track,
+.scroll-bar:vertical:pressed .track{
+    -fx-background-color: derive(#434343,20%);
+    -fx-opacity: 0.2;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:vertical .thumb:hover,
+.scroll-bar:vertical .thumb:pressed{
+    -fx-background-color: derive(black,50%);
+}
+
+.scroll-bar:vertical .increment-button:hover ,
+.scroll-bar:vertical .decrement-button:hover{
+    -fx-background-color:derive(gray,100%);
+    -fx-border-color:derive(gray,80%);
+    -fx-padding:10px;
+}
+
+#contentScrollPane .viewport{
+    -fx-background-color: #FFFFFF;
+}
+
+#contentScrollPane {
+    -fx-padding: 0;
+}
+
+HBox.item{
+    -fx-pref-height: 30px;
+    -fx-border-color: #CCCCCC;
+}
+
+VBox#fixedVBox{
+    -fx-pref-width: 200px;
+    -fx-pref-height: 30px;
+    -fx-background-color: #CCCCCC;
+}
+
+VBox#fixedVBox Label{
+    -fx-pref-width: 200px;
+    -fx-pref-height: 30px;
+    -fx-alignment: center;
+}
+
+#downloadScrollPane .viewport{
+    -fx-background-color: #FFFFFF;
+}
+
+#downloadScrollPane{
+    -fx-padding: 0;
+}
+
+HBox.downloadHBox{
+    -fx-pref-height: 40px;
+    -fx-border-width: 1px;
+    -fx-border-color: #CCCCCC;
+    -fx-alignment: center_left;
+}
+
+#downloadPageLabel{
+    -fx-pref-width: 90px;
+    -fx-pref-height: 40px;
+    -fx-alignment: center;
+}

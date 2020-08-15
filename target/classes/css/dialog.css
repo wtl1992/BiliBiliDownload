@@ -1,0 +1,10 @@
+*{
+    -fx-background-insets: 0;
+    -fx-border-insets: 0;
+    -fx-background-radius: 0;
+}
+
+Button{
+    -fx-background-color: #CCCCCC;
+    -fx-effect: dropshadow(gaussian, #00000066, 10.0, 0, 0, 0);;
+}
